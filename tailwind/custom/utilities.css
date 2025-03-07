@@ -1,0 +1,16 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `utilities` layer
+ *
+ * Add your own utility classes to this theme. Complex utility classes should
+ * be added using Tailwind’s plugin system:
+ *
+ * https://tailwindcss.com/docs/adding-custom-styles#adding-custom-utilities
+ */
+.container {
+	@apply w-full md:max-w-[1280px] md:mx-auto px-5 md:px-0;
+}
+
+.menu,
+.footer-menu {
+	@apply flex flex-col md:flex-row justify-between items-center gap-5 font-bold;
+}
